@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.alessioroberto.example.showinfo</string>
+		<string>com.alessioroberto.example.showmoreinfo</string>
+	</array>
 </dict>
 </plist>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90BC18F20C8801000586665 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90BC18E20C8801000586665 /* MoreInfoViewController.swift */; };
+		D90BC19120C8828900586665 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90BC19020C8828900586665 /* Extensions.swift */; };
 		D979D09D20C876EE004B69EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D979D09C20C876EE004B69EA /* AppDelegate.swift */; };
 		D979D09F20C876EE004B69EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D979D09E20C876EE004B69EA /* ViewController.swift */; };
 		D979D0A220C876EE004B69EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D979D0A020C876EE004B69EA /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90BC18E20C8801000586665 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		D90BC19020C8828900586665 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D979D09920C876EE004B69EA /* ShortcutsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D979D09C20C876EE004B69EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D979D09E20C876EE004B69EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		D979D09B20C876EE004B69EA /* ShortcutsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D979D0A820C876EF004B69EA /* Info.plist */,
 				D979D09C20C876EE004B69EA /* AppDelegate.swift */,
+				D90BC19020C8828900586665 /* Extensions.swift */,
+				D90BC18E20C8801000586665 /* MoreInfoViewController.swift */,
 				D979D09E20C876EE004B69EA /* ViewController.swift */,
-				D979D0A020C876EE004B69EA /* Main.storyboard */,
 				D979D0A320C876EF004B69EA /* Assets.xcassets */,
 				D979D0A520C876EF004B69EA /* LaunchScreen.storyboard */,
-				D979D0A820C876EF004B69EA /* Info.plist */,
+				D979D0A020C876EE004B69EA /* Main.storyboard */,
 			);
 			path = ShortcutsDemo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90BC18F20C8801000586665 /* MoreInfoViewController.swift in Sources */,
 				D979D09F20C876EE004B69EA /* ViewController.swift in Sources */,
 				D979D09D20C876EE004B69EA /* AppDelegate.swift in Sources */,
+				D90BC19120C8828900586665 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +288,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NX9CC2PVJ;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GK5S624D99;
 				INFOPLIST_FILE = ShortcutsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,6 +298,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alessioroberto.demo.ShortcutsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "db1d5e59-6fb3-49ea-b5f3-b045b305bc5f";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +309,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NX9CC2PVJ;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShortcutsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alessioroberto.demo.ShortcutsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
